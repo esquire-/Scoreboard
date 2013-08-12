@@ -1,0 +1,22 @@
+extend layout
+
+block styles
+	link(rel='stylesheet', href='/css/zoom.css')
+
+block content
+	.container
+		h1.text-center.featurette Score:
+		.row-fluid
+			.span6
+				.text-center
+					h1#p1.big 0
+					p
+						h2#n1 #{n1}
+			.span6
+				.text-center
+					h1#p2.big 0
+					p
+						h2#n2 #{n2}
+
+block scripts
+	script(src='/js/script.js')

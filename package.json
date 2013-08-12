@@ -1,0 +1,15 @@
+{
+	"name" : "scoreboard",
+	"private" : true,
+	"version" : "0.1.0",
+	"author" : "John Heenan <j@johnheenan.org>",
+	"description" : "Simple web scoreboard for a game such as Ping Pong",
+	"engines" : {
+		"node" : ">=0.10"
+	},
+	"dependencies" : {
+		"express" : "*",
+		"jade" : "*"
+	},
+	"main" : "./app"
+}

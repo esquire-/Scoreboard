@@ -1,0 +1,37 @@
+extend layout
+block content
+	.row
+		.span6
+			h3 #{n1}
+			p
+				a(href='/plus-p1')
+					button.btn +1
+			p
+				a(href='/minus-p1')
+					button.btn -1
+		.span6
+			h3 #{n2}
+			p
+				a(href='/plus-p2')
+					button.btn +1
+			p
+				a(href='/minus-p2')
+					button.btn -1	
+	.reset
+	form(action='/name', method='GET')
+		.row
+			.span6
+				input(type='text', name='p1', placeholder='#{n1}')
+			.span6
+				input(type='text', name='p2', placeholder='#{n2}')
+		.row
+			div.span12
+				input(type='submit', value='Update Names')
+	.reset
+	.container
+		p
+			a(href='/reset')
+				button.btn New Game
+	.reset
+	.container
+		p This is the control area for your game. You can assign points to a player with the '+1' buttons. You can change the player's names by updating the text areas and pressing submit.
