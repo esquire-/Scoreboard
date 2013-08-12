@@ -1,7 +1,7 @@
 //Scoreboard.js
 //John Heenan <j@johnheenan.org>
 
-//Inlcude express
+//Include express
 var express = require('express');
 var qs = require('querystring');
 var app = express();
