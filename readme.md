@@ -8,7 +8,7 @@ Scoreboard is a simple Node.js app that renders a local scoreboard for a game su
 
 This was intended primarily as a 'Let's build something simple in Node app'. Some friends thought it would be cool to have a scoreboard for their Ping Pong games and I threw this together.
 
-Note that this is a very simple app and doesn't use a database. This makes running it much simpler but also means that it has limtied functionality.
+Note that this is a very simple app and doesn't use a database. This makes running it much simpler but also means that it has limited functionality.
 
 Scoreboard makes use of Express, Jade, and Bootstrap.
 
@@ -24,7 +24,7 @@ This is designed to be run locally. There are no protections on the admin page, 
 
 The current HTML rendering is pretty basic. Open a ticket or fork and send a pull request if you'd like to improve the CSS.
 
---
+---
 
 ## License
 
