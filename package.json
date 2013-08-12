@@ -11,5 +11,9 @@
 		"express" : "*",
 		"jade" : "*"
 	},
-	"main" : "./app"
+	"main" : "./app",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/esquire-/Scoreboard.git"
+  }
 }
