@@ -20,6 +20,21 @@ This is designed to be run locally. There are no protections on the admin page, 
 
 ---
 
+## Usage
+
+Assuming you have node & npm:
+
+Download the source files, cd into that directory, and:
+
+```shell
+npm install
+node app.js
+```
+
+Default port is 8000, so point a web browser to localhost:8000 and you should be good to go.
+
+---
+
 ## Design
 
 The current HTML rendering is pretty basic. Open a ticket or fork and send a pull request if you'd like to improve the CSS.
